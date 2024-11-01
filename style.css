@@ -1,0 +1,66 @@
+/* Stil for body */
+body {
+    font-family: Arial, sans-serif; /* Skrifttype for teksten */
+    background-color: #f4f4f4; /* Lys grå bakgrunnsfarge */
+    color: #333; /* Mørk grå tekstfarge */
+    margin: 0; /* Fjerner standardmargin */
+    padding: 0; /* Fjerner standardpading */
+}
+
+/* Stil for header */
+header {
+    background-color: #3d5843; /* Eviggrønn farge for header */
+    color: white; /* Hvit tekstfarge */
+    padding: 20px; /* Pading rundt header */
+    text-align: center; /* Senterer teksten */
+}
+
+/* Stil for navigasjonsmeny */
+nav {
+    margin: 20px 0; /* Margin over og under navigasjonsmenyen */
+}
+
+/* Stil for navigasjonslenker */
+nav a {
+    color: white; /* Hvit tekstfarge for lenker */
+    text-decoration: none; /* Fjerner understrekning fra lenker */
+    margin: 0 15px; /* Margin på venstre og høyre side av lenker */
+}
+
+/* Stil for hovedinnhold */
+.content {
+    padding: 20px; /* Pading rundt innholdet */
+}
+
+/* Stil for enkelte konfekt-elementer */
+.konfekt {
+    background-color: white; /* Hvit bakgrunnsfarge for konfekt-elementer */
+    border: 1px solid #ddd; /* Lys grå border */
+    border-radius: 5px; /* Runde hjørner */
+    padding: 15px; /* Pading inne i konfekt-boksen */
+    margin: 10px 0; /* Margin over og under hver konfekt */
+    transition: all 0.3s ease; /* Legger til en overgangseffekt */
+}
+
+.konfekt img {
+    width: 140px; /* Setter bredden til 50 piksler */
+    height: 100px; /* Setter høyden til 50 piksler */
+    margin-right: 10px; /* Margin til høyre for å gi plass mellom bildet og teksten */
+}
+
+/* Hover-effekt for konfekt-elementer */
+.konfekt:hover {
+    background-color: #e0e0e0; /* Endrer bakgrunnsfarge ved hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Legger til en skyggeeffekt */
+}
+
+/* Stil for footer */
+footer {
+    background-color: #3d5843; /* Eviggrønn farge for footer */
+    color: white; /* Hvit tekstfarge */
+    text-align: center; /* Senterer teksten */
+    padding: 10px; /* Pading rundt footer */
+    position: absolute; /* Posisjonerer footer nederst */
+    bottom: 10; /* Alignere til bunnen av siden */
+    width: 100%; /* Full bredde av siden */
+}
